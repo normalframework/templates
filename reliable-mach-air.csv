@@ -1,0 +1,12 @@
+$in.device_prop_vendor_name,$in.device_prop_model_name,$in.type,$in.prop_object_name,$out.class,$out.label,$out.pointOf,hpl:bacnet:1.period
+Reliable Controls Corporation,MACH-Air,OBJECT_DEVICE,/^RH/,RVAV,{prop_object_name},,
+Reliable Controls Corporation,MACH-Air,OBJECT_DEVICE,/^VAV/,VAV,{prop_object_name},,
+Reliable Controls Corporation,MACH-Air,/.*/,/DmpCmd$/,Damper_Command,{prop_object_name},nf://{device_uuid},
+Reliable Controls Corporation,MACH-Air,/.*/,/DayHeatSp$/,Zone_Air_Heating_Temperature_Setpoint,{prop_object_name},nf://{device_uuid},
+Reliable Controls Corporation,MACH-Air,/.*/,/CoolSp$/,Effective_Air_Temperature_Cooling_Setpoint,{prop_object_name},nf://{device_uuid},
+Reliable Controls Corporation,MACH-Air,/.*/,/\dFlow$/,Supply_Air_Flow_Sensor,{prop_object_name},nf://{device_uuid},
+Reliable Controls Corporation,MACH-Air,/.*/,/DAT$/,Discharge_Air_Temperature_Sensor,{prop_object_name},nf://{device_uuid},15m
+Reliable Controls Corporation,MACH-Air,/.*/,/SpaceTemp$/,Zone_Air_Temperature_Sensor,{prop_object_name},nf://{device_uuid},5m
+Reliable Controls Corporation,MACH-Air,/.*/,/NightCoolSp$/,Unoccupied_Air_Temperature_Cooling_Setpoint,{prop_object_name},nf://{device_uuid},
+Reliable Controls Corporation,MACH-Air,/.*/,/NightHeatSp$/,Unoccupied_Air_Temperature_Heating_Setpoint,{prop_object_name},nf://{device_uuid},
+Reliable Controls Corporation,MACH-Air,/.*/,/HeatSp$/,Effective_Air_Temperature_Heating_Setpoint,{prop_object_name},nf://{device_uuid},

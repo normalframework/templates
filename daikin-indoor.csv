@@ -1,0 +1,8 @@
+in.device_prop_vendor_name,in.device_prop_model_name,in.type,in.instance,out.haystack,out.dis,out.suggested_brick_class
+DAIKIN Industries LTD,Indoor Unit,OBJECT_ANALOG_VALUE,6,"temp,occ,cooling,sp,zone,air,point",{prop_object_name},https://brickschema.org/schema/Brick#Discharge_Air_Temperature_Cooling_Setpoint
+DAIKIN Industries LTD,Indoor Unit,OBJECT_ANALOG_VALUE,8,"temp,unocc,cooling,sp,zone,air,point",{prop_object_name},https://brickschema.org/schema/Brick#Unoccupied_Air_Temperature_Cooling_Setpoint
+DAIKIN Industries LTD,Indoor Unit,OBJECT_ANALOG_VALUE,7,"temp,occ,heating,sp,zone,air,point",{prop_object_name},https://brickschema.org/schema/Brick#Discharge_Air_Temperature_Heating_Setpoint
+DAIKIN Industries LTD,Indoor Unit,OBJECT_ANALOG_VALUE,9,"temp,unocc,heating,sp,zone,air,point",{prop_object_name},https://brickschema.org/schema/Brick#Unoccupied_Air_Temperature_Heating_Setpoint
+DAIKIN Industries LTD,Indoor Unit,OBJECT_ANALOG_INPUT,4,"discharge,air,temp,point,zone",{prop_object_name},https://brickschema.org/schema/Brick#Discharge_Air_Temperature_Sensor
+DAIKIN Industries LTD,Indoor Unit,OBJECT_ANALOG_INPUT,5,"air,temp,point,zone",{prop_object_name},https://brickschema.org/schema/Brick#Zone_Air_Temperature_Sensor
+DAIKIN Industries LTD,Indoor Unit,OBJECT_MULTI_STATE_VALUE,4,"hvacMode,sp,point,zone",{prop_object_name},

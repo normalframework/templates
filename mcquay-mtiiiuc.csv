@@ -1,0 +1,8 @@
+$in.device_prop_vendor_name,$in.device_prop_model_name,$in.type,$in.instance,$out.haystack,$out.dis,$out.equipRef,$out.class,$out.pointOf,$out.label,$out.feeds,$out.zone.uuid,$out.zone.class,$out.zone.label
+McQuay International,MTIIIUC_WSHP,OBJECT_DEVICE,/.*/,"waterSource,heatPump,equip",{prop_object_name},nf://{device_uuid},Water_Source_Heat_Pump,,{prop_object_name},"nf://uuid5({device_uuid}, {prop_location}, {device_id})","uuid5({device_uuid}, {prop_location}, {device_id})",HVAC_Zone,{prop_location}
+McQuay International,MTIIIUC_WSHP,OBJECT_ANALOG_VALUE,1,"temp,occ,cooling,sp,zone,air,point",{prop_object_name},nf://{device_uuid},Discharge_Air_Temperature_Cooling_Setpoint,nf://{device_uuid},,,,,
+McQuay International,MTIIIUC_WSHP,OBJECT_ANALOG_VALUE,3,"temp,unocc,heating,sp,zone,air,point",{prop_object_name},nf://{device_uuid},Discharge_Air_Temperature_Heating_Setpoint,nf://{device_uuid},,,,,
+McQuay International,MTIIIUC_WSHP,OBJECT_ANALOG_VALUE,4,"discharge,air,temp,point,zone",{prop_object_name},nf://{device_uuid},Zone_Air_Temperature_Heating_Setpoint,nf://{device_uuid},,,,,
+McQuay International,MTIIIUC_WSHP,OBJECT_ANALOG_VALUE,6,"temp,unocc,heating,sp,zone,air,point",{prop_object_name},nf://{device_uuid},Unoccupied_Air_Temperature_Heating_Setpoint,nf://{device_uuid},,,,,
+McQuay International,MTIIIUC_WSHP,OBJECT_ANALOG_VALUE,23,"air,temp,effective,sp,point,zone",{prop_object_name},nf://{device_uuid},Effective_Room_Air_Temperature_Setpoint,nf://{device_uuid},,,,,
+McQuay International,MTIIIUC_WSHP,OBJECT_ANALOG_INPUT,1,"air,temp,point,zone",{prop_object_name},nf://{device_uuid},Zone_Air_Temperature_Sensor,nf://{device_uuid},,,,,
