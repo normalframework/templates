@@ -1,4 +1,4 @@
-prop_description,in.device_prop_vendor_name,in.prop_object_name,out.haystack,out.dis,out.dev,out.pointOf,out.class,,out.equip.uuid,out.equip.class,out.equip.label
+prop_description,$in.device_prop_vendor_name,$in.prop_object_name,$out.haystack,$out.dis,$out.dev,$out.pointOf,$out.class,,out.equip.uuid,out.equip.class,out.equip.label
 Discharge Air Temperature,JCI,/.*\.(?P<name>.*?)\.DA-T$/,"discharge,air,temp,point,zone",{prop_object_name},{name},"nf://uuid5({device_uuid}, {name})",Discharge_Air_Temperature_Sensor,,,,
 Zone Temperature,JCI,/.*\.(?P<name>.*?)\.ZN-T$/,"air,temp,point,zone",{prop_object_name},{name},"nf://uuid5({device_uuid}, {name})",Zone_Air_Temperature_Sensor,,"uuid5({device_uuid}, {name})",Terminal_Unit,{name}
 Discharge Air Velocity Pressure,JCI,NAE1/FC-1.VAV-219.DA-VP,"air,discharge,vaporpressure,point",{prop_object_name},{name},"nf://uuid5({device_uuid}, {name})",Discharge_Air_Velocity_Pressure_Sensor,,,,
@@ -11,5 +11,3 @@ Supply Air Damper Output,JCI,/.*\.(?P<name>.*?)\.DPR-O$/,"air,damper,cmd,point",
 Discharge Air Temperature,JCI,/.*\.(?P<name>.*?)\.DA-T$/,"air,temp,discharge,point,zone",{prop_object_name},{name},"nf://uuid5({device_uuid}, {name})",Discharge_Air_Temperature_Sensor,,,,
 Night Cooling Setpoint,JCI,.*\.(?P<name>.*?)\.CLGUNOCC-SP$,"air,temp,sp,cooling,unocc,point,zone",{prop_object_name},{name},"nf://uuid5({device_uuid}, {name})",Unoccupied_Air_Temperature_Cooling_Setpoint,,,,
 Supply Airflow,JCI,.*\.(?P<name>.*?)\.SUPFLOW$,,{prop_object_name},{name},"nf://uuid5({device_uuid}, {name})",Supply_Air_Flow_Sensor,,,,
-,,,,,,,,,,,
-,, ,,,,,,,,,
